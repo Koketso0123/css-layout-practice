@@ -1,0 +1,61 @@
+:root {
+    font-size: 10px;
+}
+
+*,
+*::before,
+*::after {
+    box-sizing: border-box;
+}
+
+body {
+    font-family: "Open Sans", Arial, sans-serif;
+    font-size: 20px;
+    min-height: 100vh;
+    background-color: #fafafa;
+    color: #262626;
+    padding-bottom: 3rem;
+}
+
+ul{
+    list-style: none;
+}
+
+.profile-user-settings{
+    display:grid;
+    grid-template-columns: 40% 30% 30%;
+    border-bottom:2px  solid lightgrey;
+    font-size: 10px;
+}
+button{
+    border:none;
+    background-color: transparent;
+    cursor: pointer;
+}
+img {
+    width:80px;
+    height:85px;
+    border-radius: 50%;
+}
+.profile-stats{
+    list-style: none;
+    display: flex;
+    padding-top: 5px;
+
+}
+.profile-stat-count{
+    display:flex;
+    flex-direction: row;
+    
+}
+.gallery-image{
+    border-radius: 0%;
+    width:180px;
+    height: 180px;
+}
+.gallery{
+  display:flex; 
+  flex-flow: row wrap; 
+  justify-content: space-around;
+  list-style: none;
+}
